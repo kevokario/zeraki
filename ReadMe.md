@@ -7,7 +7,6 @@ Zeraki.java file shows a demonstration if a java function that takes a string an
 The second function shows a demonstration of displaying a missing digit from an array of numbers.</p>
 
 <h2>Execution of the java file on terminal</h2>
-----------------------------------------
 <ol>
 <li> Open Terminal under this directory</li>
 <li> type in the command javac.Zeraki.java</li>
@@ -24,4 +23,4 @@ The second function shows a demonstration of displaying a missing digit from an 
 
     
 </p>
-<h3>Thank You Zeraki team!</h3>
+<h3>Thank You Zeraki team for giving me a chance!</h3>
