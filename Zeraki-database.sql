@@ -32,4 +32,7 @@ alter table student add foreign key(course) references course(courseid) on updat
 
 --
 -- The query for displaying data query data
-select institution.name as "INSTITUTION NAME",course.name as "COURSE NAME", count(student.name) as" NUMBER OF STUDENTS" from student inner join course on student.course = course.courseid inner join institution on institution.institutionid=course.institution group by Course;
+select institution.name as "INSTITUTION NAME",course.name as "COURSE NAME", count(student.name) as" NUMBER OF STUDENTS" from student
+ inner join course on student.course = course.courseid 
+ inner join institution on institution.institutionid=course.institution 
+ group by Course;
