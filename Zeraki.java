@@ -115,7 +115,7 @@ public class Zeraki {
         // Expecting none missing
         int[] array1 = { 3, 5, 2, 1, 4 };
 
-        int result1 = new Zeraki().arrayFilter(array);
+        int result1 = new Zeraki().arrayFilter(array1);
         String arrayFilterResult1 = "None Missing ";
         if (result1 != -1) {
             arrayFilterResult1 = result1 + "";
